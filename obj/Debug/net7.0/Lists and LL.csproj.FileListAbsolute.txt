@@ -1,0 +1,14 @@
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\Lists and LL.GeneratedMSBuildEditorConfig.editorconfig
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\Lists and LL.AssemblyInfoInputs.cache
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\Lists and LL.AssemblyInfo.cs
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\Lists and LL.csproj.CoreCompileInputs.cache
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\bin\Debug\net7.0\Lists and LL.exe
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\bin\Debug\net7.0\Lists and LL.deps.json
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\bin\Debug\net7.0\Lists and LL.runtimeconfig.json
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\bin\Debug\net7.0\Lists and LL.dll
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\bin\Debug\net7.0\Lists and LL.pdb
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\Lists and LL.dll
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\refint\Lists and LL.dll
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\Lists and LL.pdb
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\Lists and LL.genruntimeconfig.cache
+\\kings.internal\Staff$\j.campbell\Documents\C# Projects\Lists and LL\obj\Debug\net7.0\ref\Lists and LL.dll
