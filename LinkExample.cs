@@ -33,7 +33,7 @@ namespace ListsandLinkL
                 bool found=false;
                 LinkedListNode<Student> studentNode  = students.First;
                 while (!found && studentNode != null){
-                    Console.WriteLine($"id {studentNode.Value.ID}");
+                    
                     if (studentNode.Value.ID==findId){
                         found=true;
                     } else {
@@ -42,7 +42,7 @@ namespace ListsandLinkL
                 }
                 
                 if (!found) {
-                    Console.WriteLine($"ID {findId} not found");
+                    Console.WriteLine($"ID {findId} not found.");
                 } else {
                     studentNode.Value.PrintCard();
                     //code needed here 
