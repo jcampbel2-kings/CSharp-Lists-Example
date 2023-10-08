@@ -1,4 +1,6 @@
 ﻿using System;
+using MySqlConnector;
+
 namespace ListsandLinkL
 {
     class Student {
@@ -49,23 +51,61 @@ namespace ListsandLinkL
         }
     }
     
+
+
     //class for static methods (subrout) and main pgm
     class Program
     {
+        //test mysql
+        static void tstSQL(){
+            MySqlConnection conn;
+            string myConnectionString;
+            string sqlcmd="SELECT idSTudent, Name, Email FROM school.Student;";
+
+            myConnectionString = "server=192.168.1.45;uid=root;pwd=53DixonAv;database=school";
+            try{
+                conn = new MySqlConnection();
+                conn.ConnectionString = myConnectionString;
+                conn.Open();
+                Console.WriteLine("Connection Open");
+                MySqlCommand cmd = new MySqlCommand(sqlcmd, conn);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read()) {
+                    Console.WriteLine($"{rdr.GetInt32(0)} {rdr.GetString(1)} {rdr.GetString(2)}" );
+                }
+                rdr.Close();
+                cmd.Dispose();
+
+
+                conn.Close();
+                Console.WriteLine("Connection Closed");
+            }
+            catch (MySqlException ex){
+                Console.WriteLine(ex.Message);
+            }
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Which version do you want to run?");
-            Console.WriteLine("1) Lists");
-            Console.WriteLine("2)Linked  Lists");
-            Console.Write(">");
-            string ch=Console.ReadLine();
-            if (ch=="1"){
-                ListSR.MainLists();
-            } else if (ch=="2"){
-                LinkedListSR.MainLists();
-            } else {
-                Console.WriteLine("Invalid option");
-            }
+            string ch;
+            do{
+                Console.WriteLine("Which version do you want to run?");
+                Console.WriteLine("1) Lists");
+                Console.WriteLine("2) Linked  Lists");
+                Console.WriteLine("3) Test Connect");
+                Console.WriteLine("q) Quit");
+                
+                Console.Write(">");
+                ch=Console.ReadLine();
+                if (ch=="1"){
+                    ListSR.MainLists();
+                } else if (ch=="2"){
+                    LinkedListSR.MainLists();
+                } else if (ch=="3"){
+                    tstSQL();
+                }
+
+            } while (ch !="q");
             
         }
     }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U5PrBwy9xzgMHoqa3Eg67hYH0HYNoKP08KKABJorQab1ep9NNObXfJJHfExO2/m9anARhjQ3NbOA1+nqOnUJBw==",
+  "dgSpecHash": "lW8TPRYXx1ecmifB6NrmsOKLZ9PN7ALun1cwhLs3Lr0Z2cKTi5aXyc9ynHC8aOBmQierKh8RLlvV/5ig5rNJGQ==",
   "success": true,
-  "projectFilePath": "\\\\kings.internal\\Staff$\\j.campbell\\Documents\\C# Projects\\Lists and LL\\Lists and LL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\james\\OneDrive\\Documents\\c# code\\School\\CSharp-Lists-Example\\Lists and LL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\james\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512"
+  ],
   "logs": []
 }
